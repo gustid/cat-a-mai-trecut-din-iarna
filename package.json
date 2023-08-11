@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy": "ng deploy --base-href=https://gustid.github.io/cat_a_mai_trecut_din_iarna/"
   },
   "private": true,
   "dependencies": {

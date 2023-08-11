@@ -1,5 +1,4 @@
 <div class="wrapper">
-  <h1>Cat a mai trecut din iarna?</h1>
-  <h2>{{percentagePassed}}</h2>
+  <h1 *ngIf="!!season">{{ 'Cat a mai trecut din ' + season + '?' }}</h1>
+  <h2>{{ percentagePassed }}</h2>
 </div>
-
